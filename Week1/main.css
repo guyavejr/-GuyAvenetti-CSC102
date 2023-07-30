@@ -1,5 +1,13 @@
 /* Body properties */
 body {
+    text-align: center;
+    background-color: #468B97; 
+    color: #1D5B79; 
+    
+}
+
+h1 {
+    text-align: center;
     background-color: #468B97; 
     color: #1D5B79; 
 }
@@ -28,3 +36,4 @@ footer {
 header {
     text-align: center;
 }
+
