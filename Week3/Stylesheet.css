@@ -1,6 +1,9 @@
 body {
     background-color: #468B97; 
     text-align: center;
+    font-size: 20px;
+    border-radius: 4px;
+    border-color: #1D5B79;
 }
 h1 {
     text-align: center;
