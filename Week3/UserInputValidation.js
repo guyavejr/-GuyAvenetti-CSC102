@@ -1,4 +1,4 @@
-function checkInputsAndShowSecretMessage() {
+function checkInputs() {
     const firstName = document.getElementById('firstNameInput').value.trim();
     const lastName = document.getElementById('lastNameInput').value.trim();
     const zipCode = document.getElementById('zipCodeInput').value.trim();

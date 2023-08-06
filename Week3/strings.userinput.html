@@ -9,6 +9,7 @@
     <title>UserInputValidation</title>
 </head>
 <body>
+    <!--Input Boxes First, Last, Zip-->
     <h1>User Input Validation</h1>
     <form id="userForm">
         <label for="firstNameInput">First Name:</label>
@@ -21,11 +22,13 @@
         <input type="text" id="zipCodeInput" required>
         <br>
         <br>
-        <button type="button" onclick="checkInputsAndShowSecretMessage()">Submit</button>
+        <!--Button To run Javascript-->
+        <button type="button" onclick="checkInputs()">Submit</button>
     </form>
-
+    <!--Secret Message-->
     <p id="messageDisplay"></p>
     </form>
+    <!--JavaScript-->
     <script src="UserInputValidation.js"></script>
 </body>
 </html>
