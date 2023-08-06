@@ -12,13 +12,13 @@ function checkInputsAndShowSecretMessage() {
         return;
     }
 
-    // Check if the zip code has exactly 5 digits
+    // Check if the zip code has 5 digits
     if (!/^\d{5}$/.test(zipCode)) {
         alert('Zip code must contain exactly 5 digits. Please re-enter zip code.');
         return;
     }
 
-    // If all inputs are valid, display the secret message
+    //Display the secret message
     const secretMessage = "Congratulations! You did not mess up your own name!";
     document.getElementById('messageDisplay').textContent = secretMessage;
 }
