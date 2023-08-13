@@ -35,11 +35,14 @@
     </form>
     <!--JavaScript-->
     <script src="UserInputValidation.js"></script>
-
     <script src="audioscript.js"></script>
+    <!--Buttons for audio control-->
+    
     <button onclick="playBackgroundSound()">Play Sound</button>
     <button onclick="pauseBackgroundSound()">Pause Sound</button>
-    <input type="range" min="0" max="1" step="0.1" onchange="setVolume(this.value)">
+    <br>
+    <div class="container"><input type="range" min="0" max="1" step="0.1" class="slider" onchange="setVolume(this.value)"></div>
+    
 
 </body>
 </html>

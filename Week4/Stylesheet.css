@@ -27,3 +27,16 @@ button {
 button:hover {
     background-color: #b3f0fb;
 }
+
+
+.slider {
+    background-color:rgba(93, 244, 154, 0.94);  
+    border-radius: 10px;
+}
+    
+.container {
+    box-shadow: rgba(93, 244, 154, 0.94); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
