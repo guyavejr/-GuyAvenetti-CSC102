@@ -1,17 +1,17 @@
-// Get a reference to the audio element
+// reference the sound
 const backgroundSound = document.getElementById("backgroundSound");
 
-// Play the background sound
+// function for play button
 function playBackgroundSound() {
   backgroundSound.play();
 }
 
-// Pause the background sound
+// function for pause button
 function pauseBackgroundSound() {
   backgroundSound.pause();
 }
 
-// Adjust the volume of the background sound (value between 0 and 1)
+// Adjust the volume (value between 0 and 1)
 function setVolume(volume) {
   backgroundSound.volume = volume;
 }
