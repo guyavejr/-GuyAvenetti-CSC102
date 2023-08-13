@@ -1,0 +1,45 @@
+<!--Guy Avenetti-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <!--Style sheet-->
+    <link rel="stylesheet" href="Stylesheet.css">
+       <!--Audio-->
+    <audio id="backgroundSound" autoplay loop>
+        <source src="BackgoundAudio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio> 
+    <title>UserInputValidation</title>
+</head>
+<body>
+    <!--Input Boxes First, Last, Zip-->
+    <h1>User Input Validation</h1>
+    <form id="userForm">
+        <label for="firstNameInput">First Name:</label>
+        <input type="text" id="firstNameInput" required>
+        <br>
+        <label for="lastNameInput">Last Name:</label>
+        <input type="text" id="lastNameInput" required>
+        <br>
+        <label for="zipCodeInput">Zip Code:</label>
+        <input type="text" id="zipCodeInput" required>
+        <br>
+        <br>
+        <!--Button To run Javascript-->
+        <button type="button" onclick="checkInputs()">Submit</button>
+    </form>
+    <!--Secret Message-->
+    <p id="messageDisplay"></p>
+    </form>
+    <!--JavaScript-->
+    <script src="UserInputValidation.js"></script>
+
+    <script src="audioscript.js"></script>
+    <button onclick="playBackgroundSound()">Play Sound</button>
+    <button onclick="pauseBackgroundSound()">Pause Sound</button>
+    <input type="range" min="0" max="1" step="0.1" onchange="setVolume(this.value)">
+
+</body>
+</html>
