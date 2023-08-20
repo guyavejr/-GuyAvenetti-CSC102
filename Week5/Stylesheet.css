@@ -1,0 +1,90 @@
+body {
+    background-color: #468B97; 
+    text-align: center;
+    font-size: 20px;
+    border-radius: 4px;
+    border-color: #1D5B79;
+}
+h1 {
+    text-align: center;
+    font-size: 65px;
+    background-color: #468B97; 
+    color: rgba(93, 244, 154, 0.94); 
+}
+h3 {
+    text-align: left;
+    background-color: #468B97; 
+    font-size: 30px;
+}
+
+p {
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+button {
+    transition-duration: .4s;
+    font-size: 20px;
+    border-radius: 4px;
+    border-color: #1D5B79;
+    background-color: rgba(93, 244, 154, 0.94);  
+}
+
+button:hover {
+    background-color: #b3f0fb;
+}
+
+
+.slider {
+    background-color:rgba(93, 244, 154, 0.94);  
+    border-radius: 10px;
+}
+    
+.container {
+    box-shadow: rgba(93, 244, 154, 0.94); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: 0 auto; /* Center the table horizontally */
+}
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.outlined-text {
+    color: rgba(231, 147, 52, 0.94); 
+    -webkit-text-stroke: 1px black; /* Create the outline */
+    padding: 5px;           /* Add some space around the text */
+    background-color: #468B97; 
+  }
+
+nav.button-list {
+    list-style: none;
+    padding: 0;
+    display: grid;            /* Use grid */
+    grid-auto-flow: column;   /* Layout in columns */
+    gap: 10px;                /* Add some spacing between buttons */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+  }
+  
+nav.button-list li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+nav.button-list li a:hover {
+    background-color: #0056b3;
+  }
